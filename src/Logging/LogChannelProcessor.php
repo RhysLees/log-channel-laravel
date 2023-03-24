@@ -1,12 +1,14 @@
 <?php
 
-namespace RhysLees\LogChannelLaravel;
+namespace RhysLees\LogChannelLaravel\Logging;
+
+use Monolog\LogRecord;
 
 class LogChannelProcessor
 {
-    public function __invoke(array $record): array
+    public function __invoke(LogRecord $record): LogRecord
     {
-        $record['extra'] = [
+        $record->extra['request'] = [
             'user_id' => auth()->user() ? auth()->user()->id : null,
             'origin' => request()->headers->get('origin'),
             'ip' => request()->server('REMOTE_ADDR'),

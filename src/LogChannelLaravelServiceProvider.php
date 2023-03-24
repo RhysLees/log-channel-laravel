@@ -15,7 +15,6 @@ class LogChannelLaravelServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('logchannellaravel')
-            ->hasConfigFile();
+            ->name('logchannellaravel');
     }
 }
