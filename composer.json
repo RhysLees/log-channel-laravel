@@ -1,12 +1,12 @@
 {
-    "name": "rhyslees/logchannellaravel",
-    "description": "This is my package logchannellaravel",
+    "name": "rhyslees/log-channel-laravel",
+    "description": "This is my package log-channel-laravel",
     "keywords": [
         "RhysLees",
         "laravel",
-        "logchannellaravel"
+        "log-channel-laravel"
     ],
-    "homepage": "https://github.com/rhyslees/logchannellaravel",
+    "homepage": "https://github.com/rhyslees/log-channel-laravel",
     "license": "MIT",
     "authors": [
         {

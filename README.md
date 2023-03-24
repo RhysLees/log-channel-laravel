@@ -1,4 +1,4 @@
-# This is my package logchannellaravel
+# This is my package log-channel-laravel
 
 ## Installation
 
@@ -48,7 +48,7 @@ This is the contents of the published config file:
 return [
     'key' => env('LOG_CHANNEL_KEY', ''),
     'app_id' => env('LOG_CHANNEL_APP_ID', ''),
-    'endpoint' => env('LOG_CHANNEL_ENDPOINT', 'https://logchannel.test/api/app'),
+    'endpoint' => env('LOG_CHANNEL_ENDPOINT', 'https://logchannel.co.uk/api/app'),
 ];
 ```
 
