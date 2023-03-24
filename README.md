@@ -5,7 +5,7 @@
 You can install the package via composer:
 
 ```bash
-composer require rhyslees/logchannellaravel
+composer require rhyslees/log-channel-laravel
 ```
 
 Add the following to your `config\logging.php` file:
@@ -39,7 +39,7 @@ Then add the channel to the stack:
 You can publish the config file with:
 
 ```bash
-php artisan vendor:publish --tag="logchannellaravel-config"
+php artisan vendor:publish --tag="log-channel-laravel-config"
 ```
 
 This is the contents of the published config file:
@@ -55,7 +55,7 @@ return [
 Optionally, you can publish the views using
 
 ```bash
-php artisan vendor:publish --tag="logchannellaravel-views"
+php artisan vendor:publish --tag="log-channel-laravel-views"
 ```
 
 ## Usage
