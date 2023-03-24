@@ -19,7 +19,7 @@ Add the following to your `config\logging.php` file:
         'via' => \RhysLees\LogChannelLaravel\LogChannelLaravel::class,
         'key' => env('LOG_CHANNEL_KEY', ''),
         'app_id' => env('LOG_CHANNEL_APP_ID', ''),
-        'endpoint' => env('LOG_CHANNEL_ENDPOINT', 'https://logchannel.test/api/app'),
+        'endpoint' => env('LOG_CHANNEL_ENDPOINT', 'https://logchannel.co.uk/api/app'),
     ],
     
     ...
