@@ -9,6 +9,10 @@ class LogChannel
 {
     public function __invoke(): Logger
     {
-        return (new Logger('logchannel'))->pushHandler(new LogChannelHandler())->pushProcessor(new LogChannelProcessor());
+        return (
+            new Logger('logchannel'))
+                ->pushHandler(new LogChannelHandler())
+                ->pushProcessor(new LogChannelProcessor()
+        );
     }
 }

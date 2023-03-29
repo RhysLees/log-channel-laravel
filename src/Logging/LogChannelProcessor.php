@@ -14,6 +14,7 @@ class LogChannelProcessor
             'ip' => request()->server('REMOTE_ADDR'),
             'user_agent' => request()->server('HTTP_USER_AGENT'),
         ];
+        $record->extra['timezone'] = config('app.timezone');
 
         return $record;
     }
